@@ -3,7 +3,7 @@
   "type": "composer-plugin",
   "autoload": {
     "psr-4": {
-      "apiato\\installer\\": "src/"
+      "bertshang\\installer\\": "src/"
     }
   },
   "extra": {

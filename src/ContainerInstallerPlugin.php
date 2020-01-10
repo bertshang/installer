@@ -1,6 +1,6 @@
 <?php
 
-namespace porto\installer;
+namespace bertshang\installer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

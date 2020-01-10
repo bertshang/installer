@@ -1,6 +1,6 @@
 <?php
 
-namespace porto\installer;
+namespace bertshang\installer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
@@ -19,8 +19,8 @@ class ContainerInstaller extends LibraryInstaller
     {
         $containername = $package->getPrettyName();
         $extras = json_decode(json_encode($package->getExtra()));
-        if(isset($extras->porto->container->name)) {
-            $containername = $extras->porto->container->name;
+        if(isset($extras->apiato->container->name)) {
+            $containername = $extras->apiato->container->name;
         }
 
         return "app" . DIRECTORY_SEPARATOR . "Containers" . DIRECTORY_SEPARATOR . $containername;
