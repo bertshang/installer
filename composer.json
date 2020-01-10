@@ -1,0 +1,15 @@
+{
+  "name": "bertshang/containers-installer",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-4": {
+      "apiato\\installer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "bertshang\\installer\\ContainerInstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  }
+}
